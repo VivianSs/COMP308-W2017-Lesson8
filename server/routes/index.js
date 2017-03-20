@@ -29,7 +29,7 @@ router.get('/login', (req, res, next) => {
 
 // GET /register - render the registration view
 router.get('/register', (req, res, next) => {
-  usersController.displayRegister(req, res);
+  usersController.displayRegistration(req, res);
 // POST / register - process the registration submission
 }).post('/register', (req, res, next) => {
   usersController.processRegistration(req, res);

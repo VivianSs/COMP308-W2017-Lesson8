@@ -8,7 +8,7 @@ module.exports.displayHome = function (req, res) {
 }
 
 // display the contact page
-module.exports.displayContact = function(req, res){
+module.exports.displayContact = (req, res) => {
     res.render('content/contact', {
     title: 'Contact',
     games: '',
